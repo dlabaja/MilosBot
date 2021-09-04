@@ -1,4 +1,4 @@
-# MilosBot
+# MilošBot
 Projekt, na kterém jsme pracovali přes půl roku - discord bot s více jak 70 funkcemi včetně verifikací, anti raidů, obrázků politiků, hledače na wikipedii a youtube...
 
 První kód jsem napsal v listopadu 2020, a i díky tomu že se nás na tvorbě podílelo vícero, kód vypadá tak jak vypadá. I tak to ale stálo za to, a doufám že to aspoň někomu trošku pomůže.
