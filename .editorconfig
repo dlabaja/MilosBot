@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# IDE0022: Pro metody používat text bloku
+csharp_style_expression_bodied_methods = true:silent

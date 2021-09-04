@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<ApplicationIcon>milosbot_ysd_icon.ico</ApplicationIcon>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+		<AssemblyName>MilošBot</AssemblyName>
+    <Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Commands\hudba\**" />
+	  <EmbeddedResource Remove="Commands\hudba\**" />
+	  <None Remove="Commands\hudba\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\.editorconfig" Link="kktiny\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Discord.Addons.Interactive" Version="2.0.0" />
+		<PackageReference Include="Discord.Net" Version="2.4.0" />
+		<PackageReference Include="Genbox.Wikipedia" Version="3.0.0" />
+		<PackageReference Include="Google.Apis.Discovery.v1" Version="1.51.0" />
+		<PackageReference Include="Google.Apis.YouTube.v3" Version="1.51.0.2294" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
+		<PackageReference Include="MongoDB.Driver" Version="2.12.2" />
+		<PackageReference Include="ScottPlot" Version="4.1.9-beta" />
+		<PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+		<PackageReference Include="System.Drawing.Common" Version="6.0.0-preview.1.21102.12" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Data\Pictrazky\amogus.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Data\Pictrazky\baleni.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Data\Pictrazky\kalousek.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Data\Pictrazky\kalouserror.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Data\Pictrazky\kod.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Data\Pictrazky\missingText.mp4">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Data\Pictrazky\obrazek.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Data\Pictrazky\sus.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+</Project>
