@@ -5,7 +5,7 @@ První kód jsem napsal v listopadu 2020, a i díky tomu že se nás na tvorbě 
 
 ![credits](https://cdn.discordapp.com/attachments/782281045236121610/883749988147028008/unknown.png)
 
-##Jak spustit
+## Jak spustit
 Pokud chcete i přes všechen ten neudržitelný kód bota spustit, tady je návod:
 1. Stáhněte si repo
 2. Stáhněte si Visual Studio (https://visualstudio.microsoft.com/cs/)
