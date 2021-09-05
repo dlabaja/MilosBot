@@ -21,4 +21,4 @@ Pokud chcete i přes všechen ten neudržitelný kód bota spustit, tady je náv
 
 ![mongo](https://media.discordapp.net/attachments/719249155817603103/883799184485023764/unknown.png)
 
-6. Opravte id rolí a kanálů, aby seděly pro váš server
+9. Opravte id rolí a kanálů, aby seděly pro váš server
