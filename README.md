@@ -6,6 +6,8 @@ První kód jsem napsal v listopadu 2020, a i díky tomu že se nás na tvorbě 
 ![credits](https://cdn.discordapp.com/attachments/782281045236121610/883749988147028008/unknown.png)
 
 ## Jak spustit
+!!POZOR!!
+### Tento bot byl dělán pro JEDEN server a JEDNU databázi. Nikdy nebyl určen k použití na jiných serverech. Pokud tak chcete učinit, musíte vytvořit stejné kolekce v databázi a překopat všechny id rolí a kanálů!!!
 Pokud chcete i přes všechen ten neudržitelný kód bota spustit, tady je návod:
 1. Stáhněte si repo
 2. Stáhněte si Visual Studio (https://visualstudio.microsoft.com/cs/)
