@@ -7,7 +7,7 @@ První kód jsem napsal v listopadu 2020, a i díky tomu že se nás na tvorbě 
 
 ## Jak spustit
 !!POZOR!!
-### Tento bot byl dělán pro JEDEN server a JEDNU databázi. Nikdy nebyl určen k použití na jiných serverech. Pokud tak chcete učinit, musíte vytvořit stejné kolekce v databázi a překopat všechny id rolí a kanálů!!!
+### Tento bot byl dělán pro JEDEN server a s MongoDB databází databázi. Nikdy nebyl určen k použití na jiných serverech. Pokud tak chcete učinit, musíte vytvořit stejné kolekce v databázi a překopat všechny id rolí a kanálů!!!
 Pokud chcete i přes všechen ten neudržitelný kód bota spustit, tady je návod:
 1. Stáhněte si repo
 2. Stáhněte si Visual Studio (https://visualstudio.microsoft.com/cs/)
@@ -17,3 +17,5 @@ Pokud chcete i přes všechen ten neudržitelný kód bota spustit, tady je náv
 1. Otevřete si Miloše ve Visual Studiu
 2. Nahraďte "TOKEN" vaším tokenem - "TOKEN" se spustí na UNIX systémech, "TOKEN2" na Windows
 3. Nahraďte "MongoDB connection string" vaším connection stringem
+4. Vytvořte kolekce podle obrázku ![mongo](https://media.discordapp.net/attachments/719249155817603103/883799184485023764/unknown.png)
+5. Opravte id rolí a kanálů, aby seděly pro váš server
