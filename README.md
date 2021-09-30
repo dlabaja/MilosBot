@@ -17,7 +17,7 @@ Pokud chcete i přes všechen ten neudržitelný kód bota spustit, tady je náv
 4. Sežeňte si token bota (https://discord.com/developers/applications) 
 
 1. Otevřete si Miloše ve Visual Studiu
-2. Nahraďte "TOKEN" vaším tokenem - "TOKEN" se spustí na UNIX systémech, "TOKEN2" na Windows
+2. Nahraďte "TOKEN" vaším tokenem - "TOKEN" se spustí na UNIX systémech, "TOKEN2" na Windows (super pro debug)
 3. Nahraďte "MongoDB connection string" vaším connection stringem
 4. Vytvořte kolekce podle obrázku
 
